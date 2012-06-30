@@ -1,0 +1,25 @@
+{
+    "name": "ddeboer/guzzle-bundle",
+    "type": "symfony-bundle",
+    "description": "Symfony2 bundle for integrating the Guzzle PHP library into your project",
+    "keywords": ["guzzle", "curl", "http"],
+    "authors": [
+        {
+            "name": "David de Boer",
+            "homepage": "http://github.com/ddeboer"
+        },
+        {
+            "name": "Gordon Franke",
+            "homepage": "http://github.com/gimler"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.2",
+        "symfony/framework-bundle": ">=2.0,<2.2",
+        "guzzle/guzzle": "v2.6.5"
+    },
+    "autoload": {
+        "psr-0": { "Ddeboer\\GuzzleBundle": "" }
+    },
+    "target-dir": "Ddeboer/GuzzleBundle"
+}
